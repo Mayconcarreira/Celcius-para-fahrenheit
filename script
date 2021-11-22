@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int tmp_celcius, temp_fahr;
+    
+    //informar graus celcius
+    
+    printf("\nTemperatura em graus celcius\n");
+    scanf("%d", &tmp_celcius);
+    
+    //cálculo de transformação de C para F
+
+    temp_fahr = tmp_celcius * 1.8 + 32;
+
+    printf("\n\nA temperatura  %d celcius e %d fahrenheit\n.", tmp_celcius, temp_fahr);
+}
